@@ -58,54 +58,58 @@
                 <div class="intro">
                   <div class="intro--banner">
                     <h1>Ananda<br />Eldin<br />Eldinar</h1>
-                    <button class="cta">
-                      Hire Us
-                      <svg
-                        version="1.1"
-                        id="Layer_1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        x="0px"
-                        y="0px"
-                        viewBox="0 0 150 118"
-                        style="enable-background: new 0 0 150 118"
-                        xml:space="preserve"
-                      >
-                        <g
-                          transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
-                        >
-                          <path
-                            d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
-                          />
-                        </g>
-                      </svg>
+                   
+                    
                       <span class="btn-background"></span>
                     </button>
                     <img src="assets/img/eldin.png" alt="Welcome" />
                   </div>
-                  <div class="intro--options">
-                    <a
-                      href="https://www.instagram.com/universitas_pamulang/?hl=id"
-                    >
-                      <h3>Universitas Pamulang</h3>
-                      <p>
-                        Saya berkuliah di universitas pamulang dengan jurusan
-                        Teknik informatika.
-                      </p>
-                    </a>
-                    <a href="https://www.instagram.com/smkcitranegaradepok/">
-                      <h3>SMK Citra Negara</h3>
-                      <p>
-                        Saya lulusan SMK Citra Negara dengan jurusan Teknik
-                        Komputer dan Jaringan .
-                      </p>
-                    </a>
-                    <a href="#0">
-                      <h3>Portfolio</h3>
-                      <p>ini adalah tugas dari matkul Pemograman web .</p>
-                    </a>
+                  <div id="info-container" class="info-section">
+                    <!-- Tambahkan filter di sini -->
+                    <div id="filter-section">
+                      <button data-category="all">All</button>
+                      <button data-category="kampus">projek</button>
+                      <button data-category="smk">Certifikat</button>
+                    </div>
+                  
+                    <!-- Kontainer untuk hasil filter -->
+                    <div id="filter-container" class="items">
+                      <div class="item" data-category="smk">
+                        <a href="https://www.sololearn.com/certificates/CC-DJ1S3QVA">
+                          <img src="assets/img/htmlc.png" alt="Gambar" class="small-image">/>
+                        </a>
+                        <a href="https://www.sololearn.com/certificates/CC-ADQDGBBP">
+                          <img src="assets/img/javac.png" alt="Gambar" class="small-image">/>
+                        </a>
+                        <a href="https://www.sololearn.com/certificates/CC-DJ1S3QVA">
+                          <img src="assets/img/cssc.png" alt="Gambar" class="small-image">/>
+                        </a>
+                      </div>
+                      <div class="item" data-category="kampus">
+                          <a href="form login/index.html">
+                              <img src="assets/img/login.jpg" alt="Gambar" class="small-image">/>
+                              
+                        <a href="kalkulator/index.html">
+                            <img src="assets/img/kalk.webp" alt="Gambar" class="small-image">/>
+                          </a>
+                        
+                          <a href="tetris-master/index.html">
+                            <img src="assets/img/tetris.webp" alt="Gambar" class="small-image">/>
+                        </a>
+                           
+                        <a href="https://anandaeldins.github.io/Grafik/">
+                            <img
+                              src="assets/img/logografik.webp" alt="Gambar" class="small-image">/>
+                              
+                        <a href="material-dashboard-master/index.html">
+                            <img
+                              src="assets/img/graf.webp" alt="Gambar" class="small-image">/>
+                        </a>
+                      </div>
+                     
+                    </div>
                   </div>
-                </div>
+                  
               </li>
               <li class="l-section section">
                 <div class="work">
@@ -162,7 +166,7 @@
                           </p>
                         </a>
                       </li>
-                       <li class="slider--item slider--item-bottom">
+                      <li class="slider--item slider--item-bottom">
                         <a href="https://anandaeldins.github.io/Grafik/">
                           <div class="slider--item-image">
                             <img
@@ -278,9 +282,19 @@
                   <div class="contact--lockup">
                     <div class="modal">
                       <div class="modal--information">
-                        <p>Depok, Jawa Barat , Indonesia</p>
-                        <a href="bycygt@gmail.com">bycygt@gmail.com</a>
-                        <a href="tel:+148126287560">+62 812 4567 6789 </a>
+                        <div id="map-container">
+                          <h3>Lokasi Kami:</h3>
+                        
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3686313705334!2d106.6889576747517!3d-6.346287893643545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e5a6e26dc3cd%3A0xccd6344b8021119d!2sUniversitas%20Pamulang%20Kampus%202%20(UNPAM%20Viktor)!5e0!3m2!1sid!2sid!4v1736154529406!5m2!1sid!2sid" 
+                          width="400" 
+                          height="250" 
+                          style="border:0;" 
+                          allowfullscreen="" 
+                          loading="lazy" 
+                          referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                          
+                        </div>
                       </div>
                       <ul class="modal--options">
                         <li>
@@ -495,5 +509,28 @@
         );
     </script>
     <script src="assets/js/functions-min.js"></script>
+    <script >document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll("#filter-section button");
+  const items = document.querySelectorAll("#filter-container .item");
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const category = button.getAttribute("data-category");
+
+      items.forEach((item) => {
+        if (category === "all" || item.getAttribute("data-category") === category) {
+          item.style.display = "block"; // Tampilkan elemen
+        } else {
+          item.style.display = "none"; // Sembunyikan elemen
+        }
+      });
+
+      // Tambahkan class aktif ke tombol yang diklik
+      buttons.forEach((btn) => btn.classList.remove("active"));
+      button.classList.add("active");
+    });
+  });
+});
+</script>
   </body>
 </html>
